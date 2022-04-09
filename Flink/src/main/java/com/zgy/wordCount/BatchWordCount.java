@@ -14,6 +14,7 @@ import org.apache.flink.util.Collector;
  */
 public class BatchWordCount {
     public static void main(String[] args) throws Exception {
+
         // 1. 创建执行环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
